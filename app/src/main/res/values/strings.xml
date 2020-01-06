@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SecurityApplication2</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="logo_image">Logo image</string>
+    <string name="nothing_yet">Nothing yet</string>
+    <string name="title_activity_temp">tempActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shield_protection">Shield Protection</string>
+    <string name="login_into_the_system">Login into the system</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="back">Back</string>
+    <string name="your_profile">Your profile</string>
+    <string name="avatar">Avatar</string>
+    <string name="name">Name:</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="protected_locations">Protected Locations</string>
+    <string name="all_locations">All locations</string>
+    <string name="all_guards">All guards</string>
+    <string name="login_logs">Login logs</string>
+    <string name="exit">Exit</string>
+    <string name="name2">Name:</string>
+    <string name="email2">Email:</string>
+    <string name="address">Address:</string>
+    <string name="all_timestamps">All timestamps</string>
+    <string name="date2">Date:</string>
+    <string name="location">Location:</string>
+    <string name="work_status">Work status:</string>
+    <string name="edit">Edit</string>
+    <string name="edit_your_profile">Edit your profile</string>
+    <string name="change_your_name">Change your name</string>
+    <string name="new_name">New name</string>
+    <string name="edit_something_else_in_a_future">Edit something else in a future…</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="add_new_location">Add new location</string>
+    <string name="location_name">location name</string>
+    <string name="location_address">location address</string>
+</resources>

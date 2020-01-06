@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/section1"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/profile"
+            android:title="@string/profile" />
+    </group>
+
+    <group
+        android:id="@+id/section2"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/allLocations"
+            android:title="@string/all_locations" />
+        <item
+            android:id="@+id/protectedLocations"
+            android:title="@string/protected_locations" />
+        <item
+            android:id="@+id/allGuards"
+            android:title="@string/all_guards" />
+        <item
+            android:id="@+id/Logs"
+            android:title="@string/login_logs" />
+    </group>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit" />
+</menu>

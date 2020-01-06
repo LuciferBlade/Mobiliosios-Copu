@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profile">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.securityapplication2.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_editProfile"
+            app:destination="@id/editProfile" />
+    </fragment>
+    <fragment
+        android:id="@+id/allLocations"
+        android:name="com.example.securityapplication2.allLocations"
+        android:label="fragment_all_locations"
+        tools:layout="@layout/fragment_all_locations" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_addLocation"
+            app:destination="@id/addLocation" />
+    </fragment>
+    <fragment
+        android:id="@+id/protectedLocations"
+        android:name="com.example.securityapplication2.protectedLocations"
+        android:label="fragment_protected_locations"
+        tools:layout="@layout/fragment_protected_locations" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/action_protectedLocations_to_addGuardLocation"
+            app:destination="@id/addGuardLocation" />
+    </fragment>
+    <fragment
+        android:id="@+id/allGuards"
+        android:name="com.example.securityapplication2.allGuards"
+        android:label="fragment_all_guards"
+        tools:layout="@layout/fragment_all_guards" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+    </fragment>
+    <fragment
+        android:id="@+id/logs"
+        android:name="com.example.securityapplication2.Logs"
+        android:label="fragment_logs"
+        tools:layout="@layout/fragment_logs" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfile"
+        android:name="com.example.securityapplication2.editProfile"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+    </fragment>
+    <fragment
+        android:id="@+id/addLocation"
+        android:name="com.example.securityapplication2.addLocation"
+        android:label="fragment_add_location"
+        tools:layout="@layout/fragment_add_location" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+    </fragment>
+    <fragment
+        android:id="@+id/addGuardLocation"
+        android:name="com.example.securityapplication2.addGuardLocation"
+        android:label="fragment_add_guard_location"
+        tools:layout="@layout/fragment_add_guard_location" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+    </fragment>
+</navigation>

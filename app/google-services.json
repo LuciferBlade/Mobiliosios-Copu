@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "416235716115",
+    "firebase_url": "https://happ-task3.firebaseio.com",
+    "project_id": "happ-task3",
+    "storage_bucket": "happ-task3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416235716115:android:1c7c9b5646f0330c6c89e6",
+        "android_client_info": {
+          "package_name": "com.example.securityapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416235716115-rjanh3mbut9k5dru2fs8jhhsi705mm98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.securityapplication2",
+            "certificate_hash": "19295c90d365a15aecb4245724ccec25f7147cd9"
+          }
+        },
+        {
+          "client_id": "416235716115-0ra03e5shbcifkl3n3rhiacjjfhg2gi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr8ADs2AhHIeEoina_8jHC8Otlcl7wpgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416235716115-0ra03e5shbcifkl3n3rhiacjjfhg2gi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
