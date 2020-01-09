@@ -13,21 +13,21 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".RegisterActivity"
+            android:name=".Views.Activities.RegisterActivity"
             android:label="@string/title_activity_register"
             android:theme="@style/SplashTheme" />
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".Views.Activities.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/SplashTheme" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Views.Activities.MainActivity"
             android:theme="@style/SplashTheme" />
 
         <activity
-            android:name=".SplashScreen"
+            android:name=".Views.Activities.SplashScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

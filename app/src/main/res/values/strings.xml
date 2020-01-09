@@ -49,4 +49,10 @@
     <string name="add_new_location">Add new location</string>
     <string name="location_name">location name</string>
     <string name="location_address">location address</string>
+    <string name="background">Background</string>
+    <string name="randamonium">Randamonium</string>
+    <string name="picture">Picture</string>
+    <string name="change_image">Change image</string>
+    <string name="cat_picture">Cat picture</string>
+    <string name="meow">Meow...</string>
 </resources>

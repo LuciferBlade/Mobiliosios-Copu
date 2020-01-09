@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/profile"
-        android:name="com.example.securityapplication2.Profile"
+        android:name="com.example.securityapplication2.Views.Fragments.Profile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
@@ -28,10 +28,13 @@
         <action
             android:id="@+id/to_editProfile"
             app:destination="@id/editProfile" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
     <fragment
         android:id="@+id/allLocations"
-        android:name="com.example.securityapplication2.allLocations"
+        android:name="com.example.securityapplication2.Views.Fragments.AllLocations"
         android:label="fragment_all_locations"
         tools:layout="@layout/fragment_all_locations" >
         <action
@@ -52,10 +55,13 @@
         <action
             android:id="@+id/to_addLocation"
             app:destination="@id/addLocation" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
     <fragment
         android:id="@+id/protectedLocations"
-        android:name="com.example.securityapplication2.protectedLocations"
+        android:name="com.example.securityapplication2.Views.Fragments.ProtectedLocations"
         android:label="fragment_protected_locations"
         tools:layout="@layout/fragment_protected_locations" >
         <action
@@ -76,10 +82,13 @@
         <action
             android:id="@+id/action_protectedLocations_to_addGuardLocation"
             app:destination="@id/addGuardLocation" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
     <fragment
         android:id="@+id/allGuards"
-        android:name="com.example.securityapplication2.allGuards"
+        android:name="com.example.securityapplication2.Views.Fragments.AllGuards"
         android:label="fragment_all_guards"
         tools:layout="@layout/fragment_all_guards" >
         <action
@@ -97,10 +106,13 @@
         <action
             android:id="@+id/to_allLocations"
             app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
     <fragment
         android:id="@+id/logs"
-        android:name="com.example.securityapplication2.Logs"
+        android:name="com.example.securityapplication2.Views.Fragments.Logs"
         android:label="fragment_logs"
         tools:layout="@layout/fragment_logs" >
         <action
@@ -118,10 +130,13 @@
         <action
             android:id="@+id/to_allLocations"
             app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
     <fragment
         android:id="@+id/editProfile"
-        android:name="com.example.securityapplication2.editProfile"
+        android:name="com.example.securityapplication2.Views.Fragments.EditProfile"
         android:label="fragment_edit_profile"
         tools:layout="@layout/fragment_edit_profile" >
         <action
@@ -139,10 +154,13 @@
         <action
             android:id="@+id/to_allLocations"
             app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
     <fragment
         android:id="@+id/addLocation"
-        android:name="com.example.securityapplication2.addLocation"
+        android:name="com.example.securityapplication2.Views.Fragments.AddLocation"
         android:label="fragment_add_location"
         tools:layout="@layout/fragment_add_location" >
         <action
@@ -160,10 +178,13 @@
         <action
             android:id="@+id/to_allLocations"
             app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
     <fragment
         android:id="@+id/addGuardLocation"
-        android:name="com.example.securityapplication2.addGuardLocation"
+        android:name="com.example.securityapplication2.Views.Fragments.addGuardLocation"
         android:label="fragment_add_guard_location"
         tools:layout="@layout/fragment_add_guard_location" >
         <action
@@ -181,5 +202,32 @@
         <action
             android:id="@+id/to_allLocations"
             app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
+    </fragment>
+    <fragment
+        android:id="@+id/randamonium"
+        android:name="com.example.securityapplication2.Views.Fragments.Randamonium"
+        android:label="fragment_randamonium"
+        tools:layout="@layout/fragment_randamonium" >
+        <action
+            android:id="@+id/to_protectedLocations"
+            app:destination="@id/protectedLocations" />
+        <action
+            android:id="@+id/to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/to_logs"
+            app:destination="@id/logs" />
+        <action
+            android:id="@+id/to_allGuards"
+            app:destination="@id/allGuards" />
+        <action
+            android:id="@+id/to_allLocations"
+            app:destination="@id/allLocations" />
+        <action
+            android:id="@+id/to_randamonium"
+            app:destination="@id/randamonium" />
     </fragment>
 </navigation>
