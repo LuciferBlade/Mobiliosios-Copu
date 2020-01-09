@@ -1,3 +1,3 @@
-#Mobiliosios Copy-Copu
+# Mobiliosios Copy-Copu
 
 Just a copy /dupe of Mobile application project repository because I suck at managing my repos...
